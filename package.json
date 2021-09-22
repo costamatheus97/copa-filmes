@@ -1,0 +1,16 @@
+{
+  "name": "copafilmes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/costamatheus97/CopaFilmes.git",
+  "author": "Matheus Costa <costamatheus97@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd ./packages/copafilmes-backend && yarn && yarn dev",
+    "frontend": "cd ./packages/copafilmes-frontend && yarn && yarn start"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
