@@ -9,7 +9,7 @@ This test was made as a monorepo with frontend and backend in the same repositor
 
 ## How to use it
 
-After cloning the repository, just run the following command, it will install the dependencies and run the application:
+After cloning the repository just run the following command, it will install the dependencies and run the applications:
 
 ```
 $ yarn start
